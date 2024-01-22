@@ -35,5 +35,6 @@ console.log(url.replace("oo", "uu")
 );
 
 console.log(name.split(" "));
+  
 
 
