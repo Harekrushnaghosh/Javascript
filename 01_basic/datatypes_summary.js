@@ -7,7 +7,7 @@
 
 const score = 100 
 const scoreValue= null
-let userEmail;
+let phone;
 
 const Id = Symbol("1234");
 const anotherId = Symbol("1234");
@@ -42,6 +42,33 @@ console.log(typeof heros);
 console.log(typeof myobj);
 
 
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack Memory (primitive), Heap Memory(Non primitive)
+
+let myyoutubechannel = "HarekrushnaGhosh"
+
+let anothername = "myyoutubechannel"
+anothername = "Harekrushna"
+
+
+console.log(myyoutubechannel);
+console.log(anothername);
+
+
+let userOne = {
+    Name : "HarekrushnaGhosh",
+    email : "ghosharekrishna41@gmail.com",
+    UPI: "harekrushnghosh@ybl",
+
+}
+
+let userTwo = userOne
+userTwo.email = "harekrushnaghoshh@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
 
 
 
