@@ -1,0 +1,10 @@
+const jsuser={
+    name  :"harekrushna",
+    agee : 12 ,
+    city : "Bhubaneswar",
+    Email: "ghoshharekrishna41@gmail.com",
+}
+
+console.log(jsuser.name);
+console.log(jsuser["Email"]);
+
