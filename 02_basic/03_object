@@ -1,10 +1,42 @@
+const mysym = Symbol("key1")
+
 const jsuser={
-    name  :"harekrushna",
+    name  :"Harekrushna Ghosh",
+    "Full Name " : "Harekrushna Ghosh",
     agee : 12 ,
     city : "Bhubaneswar",
     Email: "ghoshharekrishna41@gmail.com",
+    phone: 8144224060,
+    [mysym] : "mykey1",
+
+
+
+
 }
 
-console.log(jsuser.name);
-console.log(jsuser["Email"]);
+//console.log(jsuser.name);
+//console.log(jsuser["Full Name "]);
+//console.log(jsuser["Email"]);
+//console.log(jsuser["phone"]);
+//console.log(jsuser[mysym])
+
+jsuser.Email= "harekrushnaghosh"
+
+//Object.freeze(jsuser)
+jsuser.Email = "harekrushnaghoshh@gmail.com"
+
+//console.log(jsuser);
+
+jsuser.greeting = function(){
+    console.log("Hello World ");
+}
+console.log(jsuser.greeting());
+
+jsuser.greetingtwo = function(){
+    console.log(`Hello World, ${this.name} `);
+}
+console.log(jsuser.greeting());
+console.log(jsuser.greetingtwo());
+
+
 
